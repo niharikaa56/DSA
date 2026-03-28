@@ -2,10 +2,13 @@
 using namespace std;
 int main()
 {
-    cout<<sizeof(int)<<endl;
-    cout<<sizeof( long int)<<endl;
-    cout<<sizeof( short int)<<endl;
-    cout<<sizeof( long  long int)<<endl;
-    cout<<sizeof( signed int)<<endl;
-    cout<<sizeof( unsigned int)<<endl;
+    // cout<<sizeof(int)<<endl;
+    // cout<<sizeof( long int)<<endl;
+    // cout<<sizeof( short int)<<endl;
+    // cout<<sizeof( long  long int)<<endl;
+    // cout<<sizeof( signed int)<<endl;
+    // cout<<sizeof( unsigned int)<<endl;
+    int a = 6;
+    int b = 10;
+    cout << (a & b) << endl;
 }
