@@ -13,6 +13,7 @@ void unique(int arr[], int n)
             {
                 count++;
             }
+
         }
         if(count==1)
         {
@@ -25,7 +26,7 @@ void intersection(int arr[],int brr[],int n,int m)
 {
     for (int i = 0; i < n; i++)
     {
-        int count=0;
+        
         for (int j= 0; j < m; j++)
     {
        if(arr[i]==brr[j])
